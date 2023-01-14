@@ -42,6 +42,18 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.header-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 130px 50px 0
+}
+
 /*=========================
      Nav Bar Styles  
 ===========================*/
@@ -49,9 +61,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1440px;
-    padding: 50px;
 }
 
 .nav-title {
@@ -98,8 +107,53 @@
     margin-bottom: 30px;
 }
 
-.banner-img {
+/*===================================
+     Quick List of Features styles
+=================================== */
+.quick-list {
+    padding: 85px 75px 0;
     width: 100%;
     max-width: 1440px;
-    padding: 50px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.quick-list-img {
+    width: 50%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.quick-list-img img {
+    width: 100%;
+}
+
+.quick-list-details {
+    width: 50%;
+}
+
+.quick-list-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.quick-list-title .title-1 {
+    color: var(--dark-three);
+}
+
+.quick-list-title .title-2 {
+    color: var(--dark-one);
+}
+
+.quick-list-title .title-3 {
+    color: var(--primary-color);
+}
+
+.quick-list-desc {
+    font-size: 16px;
+    color: var(--dark-three);
+    margin-bottom: 32px;
+    margin-top: 24px;
 }
