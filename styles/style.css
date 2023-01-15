@@ -471,7 +471,7 @@
     .quick-list-title,
     .features-title,
     .section-title {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     /* Navbar Styles  */
@@ -480,11 +480,11 @@
         gap: 20px;
     }
 
-    h2.nav-title {
-        font-size: 35px;
+    .nav-title {
+        font-size: 30px;
     }
 
-    ul.nav-items {
+    .nav-items {
         flex-direction: column;
         gap: 10px;
         text-align: center;
