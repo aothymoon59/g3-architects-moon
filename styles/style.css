@@ -15,6 +15,16 @@
     --dark-three: #727272;
 }
 
+/*=================================
+     Global and common Styles 
+===================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--work-sans);
+}
+
 .container {
     width: 100%;
     max-width: 1440px;
@@ -43,16 +53,6 @@
 
 .m-auto {
     margin: 0 auto;
-}
-
-/*=================================
-     Global and common Styles 
-===================================*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--work-sans);
 }
 
 /*======================
@@ -99,6 +99,10 @@
 /*===================
      Banner Styles 
 =====================*/
+.banner {
+    text-align: center;
+}
+
 .banner-details {
     display: flex;
     flex-direction: column;
@@ -448,8 +452,7 @@
     text-align: center;
     padding: 38px 50px;
     background-color: #FFF4E7;
-    width: 92%;
-    max-width: 1440px;
+    width: 100%;
     margin: 130px auto 0;
 }
 
@@ -600,11 +603,11 @@
         height: 200px;
     }
 
-    h3.member-name {
+    .member-name {
         font-size: 22px;
     }
 
-    p.member-title {
+    .member-title {
         font-size: 14px;
     }
 
@@ -651,7 +654,7 @@
     /* Footer section styles  */
     footer.footer {
         margin-top: 20px;
-        width: 90%;
+        width: 100%;
     }
 
     p.footer-text {
@@ -686,11 +689,11 @@
         padding: 30px 30px 0 30px;
     }
 
-    h1.banner-title {
+    .banner-title {
         font-size: 50px;
     }
 
-    p.banner-desc {
+    .banner-desc {
         margin-top: 25px;
         margin-bottom: 20px;
     }
