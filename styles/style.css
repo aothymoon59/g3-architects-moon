@@ -41,6 +41,10 @@
     margin-top: 24px;
 }
 
+.m-auto {
+    margin: 0 auto;
+}
+
 /*=================================
      Global and common Styles 
 ===================================*/
@@ -115,6 +119,10 @@
     color: var(--dark-three);
     margin-top: 35px;
     margin-bottom: 30px;
+}
+
+.banner-img {
+    text-align: center;
 }
 
 /*===================================
